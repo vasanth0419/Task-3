@@ -4,13 +4,13 @@
 
 
 ### Step 1:
-  ### CREATE A HTML FILE NAME: "index.html"
-  ### CREATE A JS FILE NAME: "script.js"
+  ###   CREATE A HTML FILE NAME: `index.html`
+  ###   CREATE A JS FILE NAME: `script.js`
 
 ### Step 2
-  ### WRITE A script.js file and join in index.html file
+  ###   Write a `script.js` file and join in `index.html` file
 
-### codes in the index.html file
+### codes in the `index.html` file
 
   ```
   <!DOCTYPE html>
@@ -26,7 +26,7 @@
 </html>
   ```
 
-### codes in the script.js file
+### codes in the `script.js` file
 
   ```
   const URL = "https://restcountries.com/v3.1/all";
@@ -47,13 +47,13 @@ xhr.onload = () => {
 
 
 ### Step 1:
-  ### CREATE A HTML FILE NAME: "index.html"
-  ### CREATE A JS FILE NAME: "script.js"
+  ###   CREATE A HTML FILE NAME: `index.html`
+  ###   CREATE A JS FILE NAME: `script.js`
 
 ### Step 2
-  ### WRITE A script.js file and join in index.html file
+  ###   Write a `script.js` file and join in `index.html` file
 
-### codes in the index.html file
+### codes in the `index.html` file
 
   ```
   <!DOCTYPE html>
@@ -69,7 +69,7 @@ xhr.onload = () => {
 </html>
   ```
 
-### codes in the script.js file
+### codes in the `script.js` file
 
   ```
 const URL = "https://restcountries.com/v3.1/all";
