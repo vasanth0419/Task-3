@@ -1,9 +1,20 @@
 
 let obj1 = {name:"Person 1", age:5};
 let obj2 = {age:5, name:"Person 1"};
+function areObjectsEqual(obj1, obj2) {
+  const keys1 = Object.keys(obj1);
+  const keys2 = Object.keys(obj2);
 
-if (obj1.name === obj2.name && obj1.age === obj2.age) {
-    console.log("Objects are equal");
-  } else {
-    console.log("Objects are not equal");
+  if (keys1.length !== keys2.length) {
+    return false;
   }
+
+  for (let key of keys1) {
+    if (obj1[key] !== obj2[key]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+console.log(areObjectsEqual(obj1,obj2))
