@@ -1,16 +1,21 @@
-## DAY 3 TASK SUMMITION
+### _DAY 3 TASK SUMMITION_
 
-### 2, Use the rest countries' API URL -> https://restcountries.com/v3.1/all and display all the country flags in the console.
+#### 1, How to compare two JSON have the same properties without order?
+
+  ####   _CREATE A JS FILE NAME_: `script.js`
 
 
-### Step 1:
-  ###   CREATE A HTML FILE NAME: `index.html`
-  ###   CREATE A JS FILE NAME: `script.js`
+#### 2, Use the rest countries' API URL -> https://restcountries.com/v3.1/all and display all the country flags in the console.
 
-### Step 2
-  ###   Write a `script.js` file and join in `index.html` file
 
-### codes in the `index.html` file
+#### Step 1:
+     ####   _CREATE A HTML FILE NAME_: `index.html`
+     ####   _CREATE A JS FILE NAME_: `script.js`
+
+#### Step 2
+  ####   _Write a `script.js` file and join in `index.html` file._
+
+#### codes in the `index.html` file
 
   ```
   <!DOCTYPE html>
@@ -26,7 +31,7 @@
 </html>
   ```
 
-### codes in the `script.js` file
+#### codes in the `script.js` file
 
   ```
   const URL = "https://restcountries.com/v3.1/all";
@@ -43,17 +48,17 @@ xhr.onload = () => {
 };
   ```
 
-### 3, Use the same rest countries and print all countries names, regions, sub-region and populations
+#### 3, Use the same rest countries and print all countries names, regions, sub-region and populations
 
 
-### Step 1:
-  ###   CREATE A HTML FILE NAME: `index.html`
-  ###   CREATE A JS FILE NAME: `script.js`
+#### Step 1:
+  ####   _CREATE A HTML FILE NAME_: `index.html`
+  ####   _CREATE A JS FILE NAME_: `script.js`
 
-### Step 2
-  ###   Write a `script.js` file and join in `index.html` file
+#### Step 2
+  ####  _Write a `script.js` file and join in `index.html` file._
 
-### codes in the `index.html` file
+#### codes in the `index.html` file
 
   ```
   <!DOCTYPE html>
@@ -69,7 +74,7 @@ xhr.onload = () => {
 </html>
   ```
 
-### codes in the `script.js` file
+#### codes in the `script.js` file
 
   ```
 const URL = "https://restcountries.com/v3.1/all";
